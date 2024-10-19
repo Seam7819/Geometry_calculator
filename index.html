@@ -68,11 +68,11 @@
                       <h2 class="card-title">Parallelogram</h2>
                       <p class="text-center">Area (A) = b * h</p>
                       <div class="mb-5">
-                        <input class="w-24  rounded-sm p-2" placeholder="b" type="text"> <span>cm</span>
-                        <input class="w-24 ml-4 mr-2 rounded-sm p-2" placeholder="h" type="text"> <span>cm</span>
+                        <input id="input-Field" class="w-24  rounded-sm p-2" placeholder="b" type="text"> <span>cm</span>
+                        <input id="field-eyy" class="w-24 ml-4 mr-2 rounded-sm p-2" placeholder="h" type="text"> <span>cm</span>
                       </div>
                       <div class="card-actions">
-                        <button class="btn btn-primary w-60">Calculate</button>
+                        <button  onclick="ParallelogramBtn()" class="btn btn-primary w-60">Calculate</button>
                       </div>
                     </div>
                   </div>
@@ -94,7 +94,7 @@
                         <input class="w-24 ml-4 mr-2 rounded-sm p-2" placeholder="d2" type="text"> <span>cm</span>
                       </div>
                       <div class="card-actions">
-                        <button class="btn btn-primary w-60">Calculate</button>
+                        <button onclick="RhombusBtn()" class="btn btn-primary w-60">Calculate</button>
                       </div>
                     </div>
                   </div>
@@ -157,5 +157,7 @@
 
     <script src="script-calculate.js/scripts.js" ></script>
     <script src="script-calculate.js/script1.js"></script>
+    <script src="script-calculate.js/script2.js"></script>
+    <script src="script-calculate.js/extractFunction.js"></script>
 </body>
 </html>
